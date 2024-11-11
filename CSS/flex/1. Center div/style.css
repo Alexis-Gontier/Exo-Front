@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #e2e8f0;
+}
+
+#square {
+    height: 200px;
+    width: 200px;
+    border-radius: 1rem;
+    background-color: #0ea5e9;
+    transition: .3s ease;
+}
+
+/* Solution 1 */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Solution 2 */
+/* body {
+    position: relative;
+} */
+/* #square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
