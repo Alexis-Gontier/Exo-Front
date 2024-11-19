@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: calc(100vh - 4rem);
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #e2e8f0;
+    border: 2px solid red;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #bae6fd;
+    border-radius: 1rem;
+    background-color: #0ea5e9;
+}
+
+body {
+    display: flex;
+    align-items: end;
+}
